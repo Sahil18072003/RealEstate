@@ -4,7 +4,7 @@ const cors = require("cors")
 const user = require("./db/users")
 const jwt = require("jsonwebtoken")
 const guser = require("./db/googleUser")
-const nodemailer = require("nodemailer")
+const nodemailer = require("nodemailer");
 
 const jwtKey = "luis_martin"
 const app = express()
